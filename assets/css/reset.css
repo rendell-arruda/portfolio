@@ -91,8 +91,12 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+* {
+  box-sizing: border-box;
+}
 /* HTML5 display-role reset for older browsers */
 article,
+a,
 aside,
 details,
 figcaption,
@@ -112,6 +116,7 @@ ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
@@ -130,4 +135,9 @@ table {
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }

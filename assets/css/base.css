@@ -2,6 +2,7 @@
   --c1: #fafafa;
   --c2: #f2f2f2;
   --c3: #dedede;
+  --lilas: #a5a6f6;
   --black: hsl(0, 0%, 0%);
   --branco: #ffffff;
   --baloo2: 'Baloo 2', cursive;
@@ -11,6 +12,7 @@ body {
   background-color: var(--black);
   color: var(--c2);
   font-family: var(--firasans);
+  max-width: 1200px;
   margin: 0 auto;
 }
 .container {

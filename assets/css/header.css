@@ -7,23 +7,23 @@
   padding-bottom: 0.75rem;
 }
 
-.header__titulo {
-  color: var(--c2);
-  font-size: 1.5rem;
-  font-weight: 700;
-  font-family: var(--baloo2);
-  line-height: 1.2;
-  padding: 12px 0 12px 0;
+.header__logo {
+}
+
+.header__titulo__img {
+  display: inline-block;
+  width: 16px;
+  margin-left: 5px;
 }
 
 .header__menu ul {
   display: flex;
   gap: 40px;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .menu__link a {
-  padding: 15px 0 15px 0;
+  padding: 10px 5px;
   color: var(--c2);
   position: relative;
 }
@@ -35,7 +35,7 @@
   width: 0px;
   margin-top: 4px;
   transition: 0.3s;
-  background: #a5a6f6;
+  background: var(--lilas);
   position: absolute;
 }
 .menu__link a:hover::after {
