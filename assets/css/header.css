@@ -1,7 +1,8 @@
 .header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -39,4 +40,10 @@
 }
 .menu__link a:hover::after {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
 }

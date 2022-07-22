@@ -47,3 +47,16 @@
   justify-content: space-between;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .apresentacao__texto-titulo {
+    font-size: 3rem;
+  }
+  .apresentacao__texto-subtitulo {
+    font-size: 1.25rem;
+  }
+  .apresentacao__texto-desc {
+    font-size: 0.875rem;
+    padding-top: 0.875rem;
+  }
+}
