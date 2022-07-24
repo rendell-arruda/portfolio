@@ -10,11 +10,11 @@
   flex-wrap: wrap;
   gap: 50px;
 }
+
 /* sobre titulo */
 .sobre .subtitulo {
   display: block;
   color: var(--c13);
-  /* max-width: 5ch; */
 }
 
 /* sobre descricao p */
@@ -22,7 +22,7 @@
   color: var(--c3);
   font-family: var(--firasans);
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 20px;
   line-height: 1.3;
   max-width: 50ch;
 }
@@ -33,38 +33,41 @@
 }
 
 .interesses {
-  /* background-color: aqua; */
 }
 
 .interesses__titulo {
   padding: 60px 0 30px 0;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   font-family: var(--popins);
-  color: var(--c6);
+  color: var(--c5);
 }
 
 .interesses__cards {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  width: 500px;
+  width: 400px;
 }
 
-.intersses__cards__card {
-  display: flex;
-  flex-direction: column;
+.interesses__cards__card {
   align-items: center;
+  background-color: var(--c13);
+  border-radius: 5px;
+  color: var(--c5);
+  display: flex;
+  font-family: var(--firasans);
+  font-size: 18px;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: var(--c13);
   padding: 10px 0;
-  width: 100px;
-  height: 100px;
-  border-radius: 5px;
+  height: 80px;
   transition: 0.3s;
+  width: 80px;
 }
 
-.intersses__cards__card:hover {
-  background-color: var(--c12);
+.interesses__cards__card:hover {
+  background-color: var(--lilas);
+  color: var(--c12);
 }
