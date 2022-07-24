@@ -2,6 +2,7 @@
   --c1: #fafafa;
   --c2: #f2f2f2;
   --c3: #dedede;
+  --c6: #919191;
   --c13: #171717;
   --lilas: #a5a6f6;
   --black: hsl(0, 0%, 0%);
@@ -11,7 +12,7 @@
 }
 
 body {
-  /* background-color: var(--black); */
+  background-color: var(--black);
   color: var(--c2);
   font-family: var(--firasans);
 }
@@ -22,3 +23,19 @@ body {
   padding-right: 6%;
   padding-left: 6%;
 }
+
+.subtitulo {
+  align-self: flex-start;
+  font-family: var(--baloo2);
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 3ch;
+  word-break: break-all;
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+} */

@@ -4,6 +4,7 @@
     justify-content: space-between; */
   background-color: var(--c13);
   gap: 50px;
+  padding: 40px 0;
 }
 
 .formacao__desc {

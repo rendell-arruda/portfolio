@@ -1,9 +1,0 @@
-.subtitulo {
-  font-family: var(--baloo2);
-  font-size: 6rem;
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
-  word-break: break-all;
-  max-width: 14ch;
-}

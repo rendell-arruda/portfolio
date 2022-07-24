@@ -1,27 +1,68 @@
 .sobre {
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
-  gap: 50px;
+  padding: 40px 0;
   background-color: var(--black);
 }
 
+.sobre__conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+/* sobre titulo */
 .sobre .subtitulo {
+  display: block;
   color: var(--c13);
-  max-width: 3ch;
+  /* max-width: 5ch; */
 }
 
+/* sobre descricao p */
 .sobre__desc {
   color: var(--c3);
   font-family: var(--firasans);
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.3;
-  /* max-width: 50ch; */
-  /* word-break: break-all; */
+  max-width: 50ch;
 }
 
 .sobre__desc span {
   color: var(--c3);
   font-weight: 700;
+}
+
+.interesses {
+  /* background-color: aqua; */
+}
+
+.interesses__titulo {
+  padding: 60px 0 30px 0;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--popins);
+  color: var(--c6);
+}
+
+.interesses__cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.intersses__cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--c13);
+  padding: 10px 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.intersses__cards__card img {
 }
