@@ -1,34 +1,25 @@
 .header {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  background-color: var(--black);
 }
 
 .header__logo {
 }
 
-.header__titulo__img {
-  display: inline-block;
-  width: 16px;
-  margin-left: 5px;
-}
-
-.header__menu ul {
+.header__nav__lista {
   display: flex;
   gap: 40px;
   font-size: 1rem;
 }
 
-.menu__link a {
+.nav__link a {
   padding: 10px 5px;
   color: var(--c2);
   position: relative;
 }
 
-.menu__link a::after {
+.nav__link a::after {
   content: '';
   display: block;
   height: 2px;
@@ -38,7 +29,7 @@
   background: var(--lilas);
   position: absolute;
 }
-.menu__link a:hover::after {
+.nav__link a:hover::after {
   width: 100%;
 }
 

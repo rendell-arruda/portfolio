@@ -1,0 +1,25 @@
+.formacao {
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+  background-color: var(--c13);
+  gap: 50px;
+}
+
+.formacao__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.formacao .subtitulo {
+  color: var(--black);
+  max-width: 5ch;
+}
+
+.formacao__desc-texto {
+  color: var(--c3);
+  font-family: var(--firasans);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
