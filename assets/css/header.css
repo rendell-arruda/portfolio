@@ -1,7 +1,11 @@
-.header {
+.header .container {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .header__logo {
