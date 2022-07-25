@@ -73,3 +73,27 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .apresentacao_perfil-image {
+    max-width: 140px;
+  }
+  .apresentacao__perfil__redes img {
+    width: 70%;
+  }
+  .apresentacao__conteudo {
+    padding-top: 0.9rem;
+  }
+  .apresentacao__texto-titulo {
+    font-size: 1rem;
+  }
+  .apresentacao__texto-titulo span {
+    font-size: 30px;
+  }
+  .apresentacao__texto-subtitulo {
+    font-size: 16px;
+  }
+  .apresentacao__texto-desc {
+    font-size: 10px;
+  }
+}
