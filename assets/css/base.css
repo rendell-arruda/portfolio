@@ -18,17 +18,24 @@
 }
 
 body {
-  background-color: var(--black);
+  /* background-color: var(--black); */
   color: var(--c2);
   font-family: var(--firasans);
 }
+ul,
+ol {
+  list-style: none;
+}
 
-.container {
+a {
+  text-decoration: none;
+}
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding-right: 6%;
   padding-left: 6%;
-}
+} */
 
 .subtitulo {
   align-self: flex-start;
@@ -41,7 +48,7 @@ body {
   word-break: break-all;
 }
 
-@media screen and (max-width: 820px) {
+/* @media screen and (max-width: 820px) {
   .subtitulo {
     font-size: 3rem;
     max-width: 10ch;
@@ -53,4 +60,4 @@ body {
   .subtitulo {
     font-size: 2rem;
   }
-}
+} */
