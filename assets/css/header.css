@@ -1,13 +1,11 @@
 header {
-  background-color: var(--c11);
+  background-color: var(--c13);
 }
+
 .navbar-brand {
-  color: var(--c2);
-  font-size: 16px;
+  color: var(--c1);
+  font-size: 1rem;
 }
-.color2 {
-  color: var(--c2);
-}
-.navbar-nav {
-  position: relative;
+.color5 {
+  color: var(--c1);
 }

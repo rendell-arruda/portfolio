@@ -6,11 +6,8 @@
   padding-bottom: 1.875rem;
 }
 
-.formacao__desc {
-}
-
-.formacao .subtitulo {
-  color: var(--black);
+.formacao__conteudo .subtitulo {
+  color: var(--lilas1);
 }
 
 .formacao__desc-texto {
@@ -37,7 +34,7 @@
   border-radius: 5px;
   background: #090909;
   width: 170px;
-  height: 150px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
