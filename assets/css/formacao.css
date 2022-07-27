@@ -40,12 +40,14 @@
   height: 160px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: space-between;
   padding: 10px;
   margin-bottom: 0;
+  transition: 0.3s;
 }
-
+.formacao__desc__card:hover {
+  background-color: #101010;
+}
 .card__titulo {
   color: var(--c6);
   font-family: var(--firasans);
