@@ -29,7 +29,7 @@
 .formacao__desc_cards {
   display: flex;
   flex-wrap: wrap;
-  padding: 15px 0 30px 0;
+  padding: 15px 0 30px 30px;
   gap: 10px;
 }
 
@@ -37,7 +37,7 @@
   border-radius: 5px;
   background: #090909;
   width: 170px;
-  height: 160px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,7 +82,7 @@
 .cursosIntensivos_lista {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 5px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -112,5 +112,16 @@
   }
   .formacao .subtitulo {
     width: inherit;
+  }
+}
+
+@media screen and(min-width:425px) {
+  .formacao__desc_cards {
+    /* padding: 15px 0 30px 0; */
+  }
+}
+@media screen and(max-width:375px) {
+  .formacao__desc_cards {
+    /* padding: 15px 0px; */
   }
 }

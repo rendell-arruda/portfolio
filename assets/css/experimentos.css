@@ -1,0 +1,58 @@
+.experimentos {
+  background: var(--white);
+}
+.experimentos__reagentes {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+.reagentes__subtitulo {
+  color: var(--c3);
+}
+.reagentes__cards__p {
+  margin-bottom: 0;
+  padding: 0 0 15px 0;
+  font-size: 1.125rem;
+  font-family: var(--popins);
+  color: var(--c13);
+}
+.reagentes__cards__p span {
+  font-weight: 700;
+}
+.reagentes__cards__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* max-width: 500px; */
+}
+.reagentes__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--c2);
+  border: 1px solid var(--c3);
+  border-radius: 5px;
+  color: var(--c12);
+  font-family: var(--firasans);
+  font-size: 14px;
+  padding: 5px;
+  height: 80px;
+  width: 80px;
+  transition: 0.3s;
+  text-align: center;
+}
+.reagentes__card img {
+  max-width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .experimentos__reagentes {
+    grid-template-columns: 1fr;
+  }
+  .reagentes__subtitulo {
+    width: inherit;
+  }
+  .reagentes__cards__list {
+    max-width: initial;
+  }
+}
