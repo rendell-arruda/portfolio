@@ -74,20 +74,15 @@
   .apresentacao__perfil__redes img {
     width: 70%;
   }
-  .apresentacao__conteudo {
-    /* padding-top: 0.9rem; */
-  }
+
   .apresentacao__texto-titulo {
     margin-bottom: 0;
   }
-  .apresentacao__texto-titulo span {
-    /* margin: 0; */
-    /* font-size: 1.75rem; */
-  }
+
   .apresentacao__texto-subtitulo {
     font-size: 1.125rem;
   }
   .apresentacao__texto-desc {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
