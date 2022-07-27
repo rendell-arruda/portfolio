@@ -78,7 +78,7 @@
     /* padding-top: 0.9rem; */
   }
   .apresentacao__texto-titulo {
-    /* font-size: 1rem; */
+    margin-bottom: 0;
   }
   .apresentacao__texto-titulo span {
     /* margin: 0; */
