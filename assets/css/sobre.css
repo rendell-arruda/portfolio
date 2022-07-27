@@ -69,4 +69,14 @@
   .sobre__conteudo {
     grid-template-columns: 1fr;
   }
+  .interesses__cards {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .interesses__cards {
+    padding-left: 0;
+    justify-content: flex-start;
+  }
 }
