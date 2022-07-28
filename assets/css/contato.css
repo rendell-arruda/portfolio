@@ -26,6 +26,11 @@
   font-size: 14px;
   line-height: 1.3;
 }
+
+.redes__sociais .contato {
+  max-width: 150px;
+}
+
 @media screen and (max-width: 768px) {
   .contato__conteudo {
     grid-template-columns: 1fr;
