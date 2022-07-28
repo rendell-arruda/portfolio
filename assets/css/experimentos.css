@@ -19,7 +19,8 @@
 .reagentes__cards__p span {
   font-weight: 700;
 }
-.reagentes__cards__list {
+.reagentes__cards__list,
+.produtos__cards__list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -45,6 +46,12 @@
   max-width: 30px;
 }
 
+@media screen and (max-width: 992px) {
+  .reagentes__subtitulo {
+    width: 4ch;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .experimentos__reagentes {
     grid-template-columns: 1fr;
@@ -54,5 +61,15 @@
   }
   .reagentes__cards__list {
     max-width: initial;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .reagentes__cards__list,
+  .produtos__cards__list {
+    padding-left: 0;
+  }
+  .produtos__cards__list {
+    justify-content: center;
   }
 }
