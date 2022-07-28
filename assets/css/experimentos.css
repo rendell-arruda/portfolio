@@ -1,8 +1,7 @@
 .experimentos {
   background: var(--white);
 }
-.experimentos__reagentes,
-.experimentos__produtos {
+.experimentos__reagentes {
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
@@ -53,7 +52,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .experimentos__reagentes {
+  .experimentos__reagentes,
+  .experimentos__produtos {
     grid-template-columns: 1fr;
   }
   .reagentes__subtitulo {
@@ -69,6 +69,7 @@
   .produtos__cards__list {
     padding-left: 0;
   }
+
   .produtos__cards__list {
     justify-content: center;
   }
