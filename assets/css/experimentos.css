@@ -1,11 +1,13 @@
-.experimentos {
+.experimentos,
+.caderno {
   background: var(--white);
 }
 .experimentos__reagentes {
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
-.reagentes__subtitulo {
+.reagentes__subtitulo,
+.caderno__subtitulo {
   color: var(--c3);
 }
 .reagentes__cards__p {
