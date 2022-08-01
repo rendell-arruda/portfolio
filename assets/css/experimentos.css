@@ -10,14 +10,14 @@
 .caderno__subtitulo {
   color: var(--c3);
 }
-.reagentes__cards__p {
+.reagentes__cards__parag {
   margin-bottom: 0;
   padding: 0 0 15px 0;
   font-size: 1.125rem;
   font-family: var(--popins);
   color: var(--c13);
 }
-.reagentes__cards__p span {
+.reagentes__cards__parag span {
   font-weight: 700;
 }
 .reagentes__cards__list,

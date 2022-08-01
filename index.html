@@ -1,305 +1,459 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rendell Arruda | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.svg"
+      type="image/x-icon"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rendell Arruda | Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-  <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fira+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1"
+              ><img
+                src="./assets/img/favicon.svg"
+                width="18"
+                height="15"
+                alt="Logo"
+              />Rendell</span
+            >
 
-<body>
-  <header>
-    <div class=" container">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class=" container-fluid">
-          <span class="navbar-brand mb-0 h1"><img src="./assets/img/favicon.svg" width="18" height="15" alt="Logo" />Rendell</span>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a> -->
+                <a class="nav-item nav-link color5" href="#sobre">Sobre</a>
+                <a class="nav-item nav-link color5" href="#formacao"
+                  >Formação</a
+                >
+                <a class="nav-item nav-link color5" href="#experimentos"
+                  >Experimentos</a
+                >
+                <a class="nav-item nav-link color5" href="#contato">Contato</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="apresentacao">
+        <div class="container">
+          <div
+            class="apresentacao__conteudo d-flex justify-content-between align-items-center"
+          >
+            <div class="apresentacao__texto">
+              <h1 class="apresentacao__texto-titulo">
+                Hi! I'm <span>Rendell</span>
+              </h1>
+              <h2 class="apresentacao__texto-subtitulo">
+                Software Developer & Chemist
+              </h2>
+              <p class="apresentacao__texto-desc">
+                I develop applications using chemical reactions.
+              </p>
+            </div>
+            <div
+              class="apresentacao_perfil d-flex justify-content-between flex-column"
+            >
+              <img
+                class="apresentacao_perfil-image"
+                src="assets/img/perfil.jpg"
+                alt="Perfil"
+              />
+              <nav class="redes__sociais">
+                <ul
+                  class="apresentacao__perfil__redes d-flex wrap align-items-center justify-content-between"
+                >
+                  <li>
+                    <a
+                      title="GitHub"
+                      target="_blank"
+                      href="https://www.github.com/rendell-arruda"
+                    >
+                      <img src="./assets/img/github.svg"" alt=" GitHub"
+                      width="25" height="25" />
+                    </a>
+                  </li>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a> -->
-              <a class="nav-item nav-link color5" href="#sobre">Sobre</a>
-              <a class="nav-item nav-link color5" href="#formacao">Formação</a>
-              <a class="nav-item nav-link color5" href="#experimentos">Experimentos</a>
-              <a class="nav-item nav-link color5" href="#contato">Contato</a>
+                  <li>
+                    <a
+                      title="Linkedin"
+                      target="_blank"
+                      href="https://www.linkedin.com/in/rendell-arruda"
+                    >
+                      <img
+                        src="./assets/img/linkedin.svg"
+                        alt="linkedin"
+                        width="25"
+                        height="25"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      title="Instagram"
+                      target="_blank"
+                      href="https://www.instagram.com/rendellarruda3/"
+                    >
+                      <img
+                        src="./assets/img/insta.svg"
+                        alt="Instagram"
+                        width="25"
+                        height="25"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      title="Twitter"
+                      target="_blank"
+                      href="https://twitter.com/rendellarruda3"
+                    >
+                      <img
+                        src="./assets/img/twitter.svg"
+                        alt="Twitter"
+                        width="25"
+                        height="25"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="apresentacao">
-      <div class="container">
-        <div class="apresentacao__conteudo d-flex justify-content-between align-items-center">
-          <div class="apresentacao__texto">
-            <h1 class="apresentacao__texto-titulo">
-              Hi! I'm <span> Rendell</span>
-            </h1>
-            <h2 class="apresentacao__texto-subtitulo">
-              Software Developer & Chemist
-            </h2>
-            <p class="apresentacao__texto-desc">
-              I develop applications using chemical reactions.
-            </p>
-          </div>
-          <div class="apresentacao_perfil d-flex justify-content-between flex-column">
-            <img class="apresentacao_perfil-image" src="assets/img/perfil.jpg" alt="Perfil" />
-            <nav class="redes__sociais">
-              <ul class="apresentacao__perfil__redes d-flex wrap align-items-center justify-content-between">
-                <li>
-                  <a title="GitHub" target="_blank" href="https://www.github.com/rendell-arruda">
-                    <img src="./assets/img/github.svg"" alt=" GitHub" width="25" height="25" />
-                  </a>
-                </li>
+      </section>
 
-                <li>
-                  <a title="Linkedin" target="_blank" href="https://www.linkedin.com/in/rendell-arruda">
-                    <img src="./assets/img/linkedin.svg" alt="linkedin" width="25" height="25" />
-                  </a>
-                </li>
-                <li>
-                  <a title="Instagram" target="_blank" href="https://www.instagram.com/rendellarruda3/">
-                    <img src="./assets/img/insta.svg" alt="Instagram" width="25" height="25" />
-                  </a>
-                </li>
-                <li>
-                  <a title="Twitter" target="_blank" href="https://twitter.com/rendellarruda3">
-                    <img src="./assets/img/twitter.svg" alt="Twitter" width="25" height="25" />
-                  </a>
-                </li>
-              </ul>
-            </nav>
+      <section id="sobre" class="sobre">
+        <div class="container">
+          <div class="sobre__conteudo grid">
+            <h3 class="subtitulo">Sobre</h3>
+            <div class="sobre__desc d-flex flex-column wrap">
+              <p class="sobre__desc__texto">
+                Nasci em <span>Belém/PA</span> - Açaí, tapioca, tucupi, cupuaçu
+                e patchouli corre nas minhas veias. <br />
+                Sou<span> Químico </span>desde 2009. Já fiz
+                <span> Cerveja, Cosméticos, Soluções Radioativas</span>
+                e hoje preparo misturas tecnológicas utilizando
+                <span> Códigos</span> 💻.
+              </p>
+              <div class="interesses">
+                <h4 class="interesses__titulo">My Interests</h4>
+
+                <ul class="interesses__cards">
+                  <li class="interesses__cards__card">
+                    <img src="./assets/img/icons8-atomo.png" alt="Science" />
+                    <p>Science</p>
+                  </li>
+
+                  <li class="interesses__cards__card">
+                    <img
+                      src="./assets/img/icons8-fones-de-ouvido-2.png"
+                      alt="Musica"
+                    />
+                    <p>Music</p>
+                  </li>
+
+                  <li class="interesses__cards__card">
+                    <img src="./assets/img/icons8-mac-os-30.png" alt="MacOS" />
+                    <p>MacOS</p>
+                  </li>
+
+                  <li class="interesses__cards__card">
+                    <img src="./assets/img/icons8-coffee.png" alt="Coffee" />
+                    <p>Coffee</p>
+                  </li>
+
+                  <li class="interesses__cards__card">
+                    <img
+                      src="./assets/img/icons8-procurar-podcasts-30.png"
+                      alt="Mobile"
+                    />
+                    <p>PodCasts</p>
+                  </li>
+
+                  <li class="interesses__cards__card">
+                    <img src="./assets/img/icons8-iphone-30.png" alt="Mobile" />
+                    <p>Mobile</p>
+                  </li>
+
+                  <li class="interesses__cards__card">
+                    <img src="./assets/img/icons8-cinema.png" alt="Cinema" />
+                    <p>Cinema</p>
+                  </li>
+
+                  <li class="interesses__cards__card">
+                    <img src="./assets/img/icons8-praia.png" alt="Travel" />
+                    <p>Travel</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="sobre" class="sobre">
-      <div class="container">
-        <div class="sobre__conteudo grid">
-          <h3 class="subtitulo">Sobre</h3>
-          <div class="sobre__desc d-flex flex-column wrap">
-            <p class="sobre__desc__texto">
-              Nasci em <span>Belém/PA</span> - Açaí, tapioca, tucupi, cupuaçu e
-              patchouli corre nas minhas veias. <br />
-              Sou<span> Químico </span>desde 2009. Já fiz
-              <span> Cerveja, Cosméticos, Soluções Radioativas</span>
-              e hoje preparo misturas tecnológicas utilizando
-              <span> Códigos</span> 💻.
-            </p>
-            <div class="interesses">
-              <h4 class="interesses__titulo">My Interests</h4>
+      <section id="formacao" class="formacao">
+        <div class="container">
+          <div class="formacao__conteudo grid">
+            <h3 class="subtitulo">Formação</h3>
+            <div class="formacao__desc d-flex wrap flex-column">
+              <p class="formacao__desc-texto">
+                Minha experiência acadêmica mais recente esta sendo o
+                <span>Eixo da Computação na UNIVESP 🎓</span>. Além disso me
+                mantenho atualizado com cursos intensivos, principalmente
+                BootCamps.
+              </p>
 
-              <ul class="interesses__cards">
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-atomo.png" alt="Science" />
-                  <p>Science</p>
+              <div class="formacao__desc_cards">
+                <ul class="formacao__desc__card">
+                  <li class="card__titulo">Bacharelado - 2021</li>
+                  <li class="card__curso">Eixo da Computação</li>
+                  <li class="card__instituicao">Univesp</li>
+                </ul>
+
+                <ul class="formacao__desc__card">
+                  <li class="card__titulo">Licenciatura - 2015/2018</li>
+                  <li class="card__curso">Química</li>
+                  <li class="card__instituicao">Uniso</li>
+                </ul>
+
+                <ul class="formacao__desc__card">
+                  <li class="card__titulo">Técnico - 2009/2010</li>
+                  <li class="card__curso">Técnico em Química</li>
+                  <li class="card__instituicao">IFPA</li>
+                </ul>
+              </div>
+
+              <div class="formacao__cursosIntensivos">
+                <h4 class="formacao__cursosIntensivos__titulo">
+                  Cursos Intensivos Mais Recentes
+                </h4>
+                <ul class="cursosIntensivos_lista">
+                  <li class="cursosIntensivos_lista__item">
+                    Formação Front End - Alura
+                  </li>
+                  <li class="cursosIntensivos_lista__item">
+                    Imersão FrontEnd - Todas as Letras Escola
+                  </li>
+                  <li class="cursosIntensivos_lista__item">
+                    Front End para Iniciantes - Origamid
+                  </li>
+                  <li class="cursosIntensivos_lista__item">
+                    Responsive Web Designe - FreeCodeCamp
+                  </li>
+                  <li class="cursosIntensivos_lista__item">
+                    Para ver mais cursos e certificados<a
+                      href="https://www.linkedin.com/in/rendell-arruda-5804b4177/details/certifications/"
+                      target="_blank"
+                    >
+                      clique aqui</a
+                    >.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experimentos" id="experimentos">
+        <div class="container">
+          <div class="experimentos__reagentes grid">
+            <h3 class="reagentes__subtitulo subtitulo">Reagentes</h3>
+            <div class="reagentes__texto">
+              <p class="reagentes__cards__parag">
+                Atualmente estou estudando projetos que utilizam as seguintes
+                Skills.
+              </p>
+              <ul class="reagentes__cards__list">
+                <li class="reagentes__card">
+                  <img
+                    src="./assets/img/icon-javascript.svg"
+                    alt="JavaScript"
+                    class="reagentes__card__imagem"
+                  />
+                  <p class="img reagentes__card__p_">JavaScript</p>
                 </li>
-
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-fones-de-ouvido-2.png" alt="Musica" />
-                  <p>Music</p>
+                <li class="reagentes__card">
+                  <img
+                    src="./assets/img/icon-html-5.svg"
+                    alt=""
+                    class="reagentes__card__imagem"
+                  />
+                  <p class="img reagentes__card__p_">HTML</p>
                 </li>
-
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-mac-os-30.png" alt="MacOS" />
-                  <p>MacOS</p>
+                <li class="reagentes__card">
+                  <img
+                    src="./assets/img/icon-css3.svg"
+                    alt=""
+                    class="reagentes__card__imagem"
+                  />
+                  <p class="img reagentes__card__p_">CSS</p>
                 </li>
-
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-coffee.png" alt="Coffee" />
-                  <p>Coffee</p>
+                <li class="reagentes__card">
+                  <img
+                    src="./assets/img/icon-python.svg"
+                    alt="Python"
+                    class="reagentes__card__imagem"
+                  />
+                  <p class="img reagentes__card__p_">Python</p>
                 </li>
-
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-procurar-podcasts-30.png" alt="Mobile" />
-                  <p>PodCasts</p>
+                <li class="reagentes__card">
+                  <img
+                    src="./assets/img/icon-bootstrap.svg"
+                    alt="Bootstrap"
+                    class="reagentes__card__imagem"
+                  />
+                  <p class="img reagentes__card__p_">Bootstrap</p>
                 </li>
-
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-iphone-30.png" alt="Mobile" />
-                  <p>Mobile</p>
+                <li class="reagentes__card">
+                  <img
+                    src="./assets/img/icon-git.svg"
+                    alt="Git Souce Control"
+                    class="reagentes__card__imagem"
+                  />
+                  <p class="img reagentes__card__p_">Git Souce Control</p>
                 </li>
-
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-cinema.png" alt="Cinema" />
-                  <p>Cinema</p>
-                </li>
-
-                <li class="interesses__cards__card">
-                  <img src="./assets/img/icons8-praia.png" alt="Travel" />
-                  <p>Travel</p>
+                <li class="reagentes__card">
+                  <img
+                    src="./assets/img/icons8-ui-50.png"
+                    alt="UI/UX"
+                    class="reagentes__card__imagem"
+                  />
+                  <p class="img reagentes__card__p_">UI/UX</p>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="formacao" class="formacao">
-      <div class="container">
-        <div class="formacao__conteudo grid">
-          <h3 class="subtitulo">Formação</h3>
-          <div class="formacao__desc d-flex wrap flex-column">
-
-            <p class="formacao__desc-texto">
-              Minha experiência acadêmica mais recente esta sendo o
-              <span>Eixo da Computação na UNIVESP 🎓</span>. Além disso me
-              mantenho atualizado com cursos intensivos, principalmente
-              BootCamps.
-            </p>
-
-            <div class="formacao__desc_cards">
-              <ul class="formacao__desc__card">
-                <li class="card__titulo">Bacharelado - 2021</li>
-                <li class="card__curso">Eixo da Computação</li>
-                <li class="card__instituicao">Univesp</li>
-              </ul>
-
-              <ul class="formacao__desc__card">
-                <li class="card__titulo">Licenciatura - 2015/2018</li>
-                <li class="card__curso">Química</li>
-                <li class="card__instituicao">Uniso</li>
-              </ul>
-
-              <ul class="formacao__desc__card">
-                <li class="card__titulo">Técnico - 2009/2010</li>
-                <li class="card__curso">Técnico em Química</li>
-                <li class="card__instituicao">IFPA</li>
-              </ul>
-            </div>
-
-            <div class="formacao__cursosIntensivos">
-              <h4 class="formacao__cursosIntensivos__titulo">
-                Cursos Intensivos Mais Recentes
-              </h4>
-              <ul class="cursosIntensivos_lista">
-                <li class="cursosIntensivos_lista__item">
-                  Formação Front End - Alura
-                </li>
-                <li class="cursosIntensivos_lista__item">
-                  Imersão FrontEnd - Todas as Letras Escola
-                </li>
-                <li class="cursosIntensivos_lista__item">
-                  Front End para Iniciantes - Origamid
-                </li>
-                <li class="cursosIntensivos_lista__item">
-                  Responsive Web Designe - FreeCodeCamp
-                </li>
-                <li class="cursosIntensivos_lista__item">
-                  Para ver mais cursos e certificados<a href="https://www.linkedin.com/in/rendell-arruda-5804b4177/details/certifications/" target="_blank">
-                    clique aqui</a>.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="experimentos" id="experimentos">
-      <div class="container">
-        <div class="experimentos__reagentes grid">
-          <h3 class="reagentes__subtitulo subtitulo">Reagentes</h3>
-          <div class="reagentes__texto">
-            <p class="reagentes__cards__p">
-              Atualmente estou estudando projetos que utilizam as seguintes <span>Skills<span>.</p>
-            <ul class="reagentes__cards__list">
-              <li class="reagentes__card">
-                <img src="./assets/img/icon-javascript.svg" alt="JavaScript" class="reagentes__card__imagem">
-                <p class="img reagentes__card__p_">JavaScript</p>
-              </li>
-              <li class="reagentes__card">
-                <img src="./assets/img/icon-html-5.svg" alt="" class="reagentes__card__imagem">
-                <p class="img reagentes__card__p_">HTML</p>
-              </li>
-              <li class="reagentes__card">
-                <img src="./assets/img/icon-css3.svg" alt="" class="reagentes__card__imagem">
-                <p class="img reagentes__card__p_">CSS</p>
-              </li>
-              <li class="reagentes__card">
-                <img src="./assets/img/icon-python.svg" alt="Python" class="reagentes__card__imagem">
-                <p class="img reagentes__card__p_">Python</p>
-              </li>
-              <li class="reagentes__card">
-                <img src="./assets/img/icon-bootstrap.svg" alt="Bootstrap" class="reagentes__card__imagem">
-                <p class="img reagentes__card__p_">Bootstrap</p>
-              </li>
-              <li class="reagentes__card">
-                <img src="./assets/img/icon-git.svg" alt="Git Souce Control" class="reagentes__card__imagem">
-                <p class="img reagentes__card__p_">Git Souce Control</p>
-              </li>
-              <li class="reagentes__card">
-                <img src="./assets/img/icons8-ui-50.png" alt="UI/UX" class="reagentes__card__imagem">
-                <p class="img reagentes__card__p_">UI/UX</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="experimentos" id="experimentos">
-      <div class="container">
-        <div class="experimentos__produtos">
-          <h3 class="reagentes__subtitulo subtitulo">Produtos</h3>
-          <div class="reagentes__texto">
-            <p class="reagentes__cards__p">
-              Estes são alguns projetos resultados das <span>Reações Tech-Químicas<span>.</p>
-            <ul class="produtos__cards__list">
-              <li>
-                <div class="card" style="width: 18rem; height:21rem ;">
-                  <img class="card-img-top" src="./assets/img/capa-mademe-currie.jpg" alt="Tribute Page">
-                  <div class="card-body d-flex flex-column justify-content-between">
-                    <h5 class="card-title">Tribute Page</h5>
-                    <p class="card-text">Este projeto faz parte do curso de HTML e CSS da Free Code Camp e é um tributo a Madame Marie Curie.</p>
-                    <a href="https://github.com/rendell-arruda/tributePage" class="btn btn-primary " target="_blank">Veja o código</a>
+      <section class="experimentos" id="experimentos">
+        <div class="container">
+          <div class="experimentos__produtos">
+            <h3 class="reagentes__subtitulo subtitulo">Produtos</h3>
+            <div class="reagentes__texto">
+              <p class="reagentes__cards__parag">
+                Estes são alguns projetos resultados das Reações Tech-Químicas.
+              </p>
+              <ul class="produtos__cards__list">
+                <li>
+                  <div class="card" style="width: 18rem; height: 21rem">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/capa-mademe-currie.jpg"
+                      alt="Tribute Page"
+                    />
+                    <div
+                      class="card-body d-flex flex-column justify-content-between"
+                    >
+                      <h5 class="card-title">Tribute Page</h5>
+                      <p class="card-text">
+                        Este projeto faz parte do curso de HTML e CSS da Free
+                        Code Camp e é um tributo a Madame Marie Curie.
+                      </p>
+                      <a
+                        href="https://github.com/rendell-arruda/tributePage"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Veja o código</a
+                      >
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li>
-                <div class="card" style="width: 18rem; height:21rem ;">
-                  <img class="card-img-top" src="./assets/img/imersaoTodas.jpg" alt="Imersão Todas as Letras" height="160">
-                  <div class="card-body card-body d-flex flex-column justify-content-between">
-                    <h5 class="card-title">Imersão Todas as Letras</h5>
-                    <p class="card-text">Repositório com projetos que foram realizados no BootCamp Imersão Front end.</p>
-                    <a href="https://github.com/rendell-arruda/tributePage" class="btn btn-primary" target="_blank">Veja o código</a>
+                </li>
+                <li>
+                  <div class="card" style="width: 18rem; height: 21rem">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/imersaoTodas.jpg"
+                      alt="Imersão Todas as Letras"
+                      height="160"
+                    />
+                    <div
+                      class="card-body card-body d-flex flex-column justify-content-between"
+                    >
+                      <h5 class="card-title">Imersão Todas as Letras</h5>
+                      <p class="card-text">
+                        Repositório com projetos que foram realizados no
+                        BootCamp Imersão Front end.
+                      </p>
+                      <a
+                        href="https://github.com/rendell-arruda/tributePage"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Veja o código</a
+                      >
+                    </div>
                   </div>
-                </div>
-              </li>
+                </li>
 
-              <li>
-                <div class="card" style="width: 18rem; height:21rem ;">
-                  <img class="card-img-top" src="./assets/img/certificard-alura-2.jpg" alt="Card image cap" height="160">
-                  <div class="card-body d-flex flex-column justify-content-between">
-                    <h5 class="card-title">Certificard</h5>
-                    <p class="card-text">Este Certificado foi desenvolvido na Imersão Dev da Alura em Set/2021.</p>
-                    <a href="https://github.com/rendell-arruda/certificard" class="btn btn-primary " target="_blank">Veja o código</a>
+                <li>
+                  <div class="card" style="width: 18rem; height: 21rem">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/certificard-alura-2.jpg"
+                      alt="Card image cap"
+                      height="160"
+                    />
+                    <div
+                      class="card-body d-flex flex-column justify-content-between"
+                    >
+                      <h5 class="card-title">Certificard</h5>
+                      <p class="card-text">
+                        Este Certificado foi desenvolvido na Imersão Dev da
+                        Alura em Set/2021.
+                      </p>
+                      <a
+                        href="https://github.com/rendell-arruda/certificard"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Veja o código</a
+                      >
+                    </div>
                   </div>
-                </div>
-              </li>
-
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- <section id="caderno" class="caderno">
+      <!-- <section id="caderno" class="caderno">
       <div class="container">
         <div class="caderno__conteudo">
           <h4 class="caderno__subtitulo subtitulo ">Caderno de Laboratório</h4>
@@ -312,54 +466,91 @@
         </div>
       </div>
     </section> -->
-  </main>
+    </main>
 
-  <footer>
-    <section id="contato" class="contato">
-      <div class="container">
+    <footer>
+      <section id="contato" class="contato">
+        <div class="container">
+          <div class="contato__conteudo grid">
+            <h3 class="subtitulo">Contato</h3>
+            <div class="contato__desc d-flex flex-column wrap">
+              <p class="contato_desc">
+                Estou disponível para projetos desafiadores. Entre em contato
+                comigo e marcamos uma conversa👋🏻.
+              </p>
 
-        <div class="contato__conteudo grid">
-          <h3 class="subtitulo">Contato</h3>
-          <div class="contato__desc d-flex flex-column wrap">
-            <p class="contato_desc">Estou disponível para projetos desafiadores. Entre em contato comigo e marcamos uma conversa👋🏻.</p>
-           
-            <p class="contato_desc">Sorocaba - SP</p>
-            <nav class="redes__sociais contato">
-              <ul class="apresentacao__perfil__redes contato d-flex wrap align-items-center justify-content-between ">
-                <li>
-                  <a title="GitHub" target="_blank" href="https://www.github.com/rendell-arruda">
-                    <img src="./assets/img/github.svg"" alt=" GitHub" width="25" height="25" />
-                  </a>
-                </li>
+              <p class="contato_desc">Sorocaba - SP</p>
+              <nav class="redes__sociais contato">
+                <ul
+                  class="apresentacao__perfil__redes contato d-flex wrap align-items-center justify-content-between"
+                >
+                  <li>
+                    <a
+                      title="GitHub"
+                      target="_blank"
+                      href="https://www.github.com/rendell-arruda"
+                    >
+                      <img src="./assets/img/github.svg"" alt=" GitHub"
+                      width="25" height="25" />
+                    </a>
+                  </li>
 
-                <li>
-                  <a title="Linkedin" target="_blank" href="https://www.linkedin.com/in/rendell-arruda">
-                    <img src="./assets/img/linkedin.svg" alt="linkedin" width="25" height="25" />
-                  </a>
-                </li>
-                <li>
-                  <a title="Instagram" target="_blank" href="https://www.instagram.com/rendellarruda3/">
-                    <img src="./assets/img/insta.svg" alt="Instagram" width="25" height="25" />
-                  </a>
-                </li>
-                <li>
-                  <a title="Twitter" target="_blank" href="https://twitter.com/rendellarruda3">
-                    <img src="./assets/img/twitter.svg" alt="Twitter" width="25" height="25" />
-                  </a>
-                </li>
-              </ul>
-            </nav>
+                  <li>
+                    <a
+                      title="Linkedin"
+                      target="_blank"
+                      href="https://www.linkedin.com/in/rendell-arruda"
+                    >
+                      <img
+                        src="./assets/img/linkedin.svg"
+                        alt="linkedin"
+                        width="25"
+                        height="25"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      title="Instagram"
+                      target="_blank"
+                      href="https://www.instagram.com/rendellarruda3/"
+                    >
+                      <img
+                        src="./assets/img/insta.svg"
+                        alt="Instagram"
+                        width="25"
+                        height="25"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      title="Twitter"
+                      target="_blank"
+                      href="https://twitter.com/rendellarruda3"
+                    >
+                      <img
+                        src="./assets/img/twitter.svg"
+                        alt="Twitter"
+                        width="25"
+                        height="25"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
-
+          <p class="contato__copy">
+            Copyright © 2022 Rendell L C Arruda - Todos os direitos reservados.
+          </p>
         </div>
-        <p class="contato__copy">Copyright © 2022 Rendell L C Arruda - Todos os direitos reservados.</p>
-      </div>
-
-      </div>
-
-    </section>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</body>
-
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
