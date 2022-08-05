@@ -17,18 +17,19 @@
   --lilas2: #7879f1;
   --lilas3: #5d5fef;
   --black: #000000;
-  --white: #ffffff;
+  --white: #f9f9f9;
 
   --githead: #171b21;
   --gitbg: #0d1117;
-  --gitdelpurple: #563d7c;
+  --gitpurple: #563d7c;
   --gitdelgreen: #248636;
   --gittitle: #f0f6fc;
   --gittitlehover: #bec0c2;
   --gitsubtitle1: #c8d1d9;
   --gitsubtitle2: #8b949e;
   --gitsubtitle3: #484f58;
-  -gitbotaobg: #21272d;
+  --gitbotaobg: #21272d;
+  --gitbotaoborder: #363b41;
   -gitbotaobghover: #30363c;
   -gitbotaobghoverborder: #30363c;
 
@@ -61,10 +62,9 @@ a {
 
 .subtitulo {
   font-family: var(--baloo2);
-  font-size: 50px;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  /* max-width: 3ch; */
   word-break: break-all;
 }

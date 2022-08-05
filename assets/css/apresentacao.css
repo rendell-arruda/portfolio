@@ -1,5 +1,5 @@
 .apresentacao {
-  background-color: var(--black);
+  background-color: var(--gitbg);
 }
 
 .apresentacao__conteudo {
@@ -10,7 +10,7 @@
 
 .apresentacao__texto-titulo {
   font-family: var(--baloo2);
-  color: var(--c1);
+  color: var(--gittitle);
   font-size: 2rem;
   font-weight: 400;
 }
@@ -22,14 +22,14 @@
 }
 
 .apresentacao__texto-subtitulo {
-  color: var(--c2);
+  color: var(--gitsubtitle1);
   font-size: 2rem;
   font-weight: 400;
 }
 
 .apresentacao__texto-desc {
   font-family: var(--firasans);
-  color: var(--c3);
+  color: var(--gitsubtitle2);
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.3;

@@ -1,21 +1,22 @@
 .experimentos,
 .caderno {
-  background: var(--white);
+  background: var(--gitbg);
 }
+
 .experimentos__reagentes {
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 .reagentes__subtitulo,
 .caderno__subtitulo {
-  color: var(--c3);
+  color: var(--gitsubtitle3);
 }
 .reagentes__cards__parag {
   margin-bottom: 0;
   padding: 0 0 15px 0;
   font-size: 1.125rem;
   font-family: var(--popins);
-  color: var(--c13);
+  color: var(--gitsubtitle1);
 }
 .reagentes__cards__parag span {
   font-weight: 700;
@@ -31,10 +32,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--c2);
-  border: 1px solid var(--c3);
+  background-color: var(--gittitle);
+  /* border: 1px solid var(--c3); */
   border-radius: 5px;
-  color: var(--c12);
+  color: var(--gitsubtitle3);
   font-family: var(--firasans);
   font-size: 14px;
   padding: 5px;
@@ -42,9 +43,14 @@
   width: 80px;
   transition: 0.3s;
   text-align: center;
+  line-height: normal;
 }
 .reagentes__card img {
   max-width: 30px;
+}
+
+.produtos__cards__list {
+  color: var(--gitsubtitle3);
 }
 
 @media screen and (max-width: 992px) {

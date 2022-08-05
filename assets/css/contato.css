@@ -1,5 +1,5 @@
 .contato {
-  background-color: var(--black);
+  background-color: var(--githead);
 }
 
 .contato__conteudo {
@@ -8,19 +8,18 @@
 }
 
 .contato .subtitulo {
-  color: var(--c11);
+  color: var(--gitsubtitle3);
 }
 
 .contato__desc {
   gap: 15px;
-  color: var(--c4);
   font-family: var(--firasans);
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.3;
 }
 .contato__copy {
-  color: var(--c7);
+  color: var(--gitsubtitle3);
   font-family: var(--firasans);
   font-weight: 400;
   font-size: 14px;

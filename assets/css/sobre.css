@@ -1,5 +1,5 @@
 .sobre {
-  background-color: var(--black);
+  background-color: var(--gitbg);
 }
 
 .sobre__conteudo {
@@ -10,12 +10,12 @@
 /* sobre titulo */
 .sobre .subtitulo {
   display: block;
-  color: var(--c11);
+  color: var(--gitsubtitle3);
 }
 
 /* sobre descricao p */
 .sobre__desc {
-  color: var(--c3);
+  color: var(--gittitle);
   font-family: var(--firasans);
   font-weight: 400;
   font-size: 1.125rem;
@@ -23,7 +23,7 @@
 }
 
 .sobre__desc span {
-  color: var(--c3);
+  color: var(--gittitle);
   font-weight: 700;
 }
 
@@ -33,7 +33,7 @@
   font-size: 18px;
   font-weight: 700;
   font-family: var(--popins);
-  color: var(--c5);
+  color: var(--gitsubtitle1);
 }
 
 .interesses__cards {
@@ -45,12 +45,13 @@
 
 .interesses__cards__card {
   display: flex;
+  border: 1px solid var(--gitbotaoborder);
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--c13);
+  background-color: var(--gitbotaobg);
   border-radius: 5px;
-  color: var(--c5);
+  color: var(--gitsubtitle2);
   font-family: var(--firasans);
   font-size: 14px;
   padding: 5px;
@@ -61,8 +62,8 @@
 }
 
 .interesses__cards__card:hover {
-  background-color: var(--lilas2);
-  color: var(--c12);
+  background-color: var(--lilas);
+  color: var(--gitsubtitle3);
 }
 
 @media screen and (min-width: 1025px) {
