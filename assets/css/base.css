@@ -18,6 +18,20 @@
   --lilas3: #5d5fef;
   --black: #000000;
   --white: #ffffff;
+
+  --githead: #171b21;
+  --gitbg: #0d1117;
+  --gitdelpurple: #563d7c;
+  --gitdelgreen: #248636;
+  --gittitle: #f0f6fc;
+  --gittitlehover: #bec0c2;
+  --gitsubtitle1: #c8d1d9;
+  --gitsubtitle2: #8b949e;
+  --gitsubtitle3: #484f58;
+  -gitbotaobg: #21272d;
+  -gitbotaobghover: #30363c;
+  -gitbotaobghoverborder: #30363c;
+
   --baloo2: 'Baloo 2', cursive;
   --firasans: 'Fira Sans', sans-serif;
 }
@@ -27,6 +41,8 @@ p {
 }
 body {
   font-family: var(--firasans);
+  background-color: #0d1117;
+  color: var(--gittitle);
 }
 
 ul,
