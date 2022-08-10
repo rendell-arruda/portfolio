@@ -57,6 +57,9 @@
 
 .btn-curriculo a {
   color: var(--gittitle);
+  background-color: var(--lilas2);
+  border: none;
+  color: var(--white);
 }
 .btn-curriculo:hover {
   background-color: var(--lilas3);
