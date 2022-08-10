@@ -1,6 +1,6 @@
 # Portfolio Pessoal - Rendell Arruda
 
-<img src="capa-portfolio.png" alt="Capa do portfolio">
+<img src="./capa-portfolio.png" alt="Capa do portfolio">
 > Este projeto é a entrega final da Imersão Front End da Escola Todas as letras.
 
 ### Ajustes e melhorias
