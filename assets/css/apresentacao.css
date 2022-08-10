@@ -49,6 +49,20 @@
   margin: 0;
 }
 
+.btn-curriculo {
+  background-color: var(--lilas2);
+  border: none;
+  color: var(--white);
+}
+
+.btn-curriculo a {
+  color: var(--gittitle);
+}
+.btn-curriculo:hover {
+  background-color: var(--lilas3);
+  border: none;
+}
+
 @media screen and (max-width: 768px) {
   .apresentacao__conteudo {
     padding-top: 1rem;
