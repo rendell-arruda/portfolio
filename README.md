@@ -5,17 +5,14 @@
 
 ### Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto está em cte desenvolvimento e algumas atualizações podem ocorrer conforme o passar do tempo e o aprendizado.
+Algumas etapas superadas:
 
 - [x] Desenvolvimento HTML
 - [x] Estilização CSS - básica
 - [x] Section - Sobre
 - [x] Section - Formação
-- [ ] Section - Experimentos
-- [ ] Section - Contato
-- [ ] Estilização CSS - Arrojada
-- [ ] Resposividade
-
-<h4 align="center"> 
-	🚧   🚀 Em construção...  🚧
-</h4>
+- [x] Section - Experimentos
+- [x] Section - Contato
+- [x] Estilização CSS - Arrojada
+- [x] Resposividade
