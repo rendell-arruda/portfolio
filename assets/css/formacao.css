@@ -100,6 +100,9 @@
 }
 
 @media screen and (max-width: 992px) {
+  .formacao__desc_cards {
+    justify-content: center;
+  }
   .formacao .subtitulo {
     width: 5ch;
   }
