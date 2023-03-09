@@ -68,6 +68,7 @@
     width: inherit;
   }
   .reagentes__cards__list {
+    justify-content: center;
     max-width: initial;
   }
 }
