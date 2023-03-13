@@ -71,8 +71,11 @@
   .apresentacao__conteudo {
     text-align: center;
     padding-top: 1rem;
-    gap: 20px;
+    /* gap: 20px; */
     flex-direction: column;
+  }
+  .apresentacao_perfil-image {
+    max-width: 200px;
   }
   .apresentacao__texto-titulo {
     font-size: 1.25rem;
