@@ -69,7 +69,10 @@
 
 @media screen and (max-width: 768px) {
   .apresentacao__conteudo {
+    text-align: center;
     padding-top: 1rem;
+    gap: 20px;
+    flex-direction: column;
   }
   .apresentacao__texto-titulo {
     font-size: 1.25rem;
