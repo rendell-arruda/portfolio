@@ -16,3 +16,4 @@ Algumas etapas superadas:
 - [x] Section - Contato
 - [x] Estilização CSS - Arrojada
 - [x] Resposividade
+- [ ] Conversão para React
